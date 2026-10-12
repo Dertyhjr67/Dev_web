@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Tienda Nova - Página Principal
+        </title>
+        <link rel="stylesheet" href="estilo.css">
+        <style>
+            p {color: darkblue;}
+            td, th {padding: 5px 15px; border: 1px solid; border-radius: 6px;}
+            table {width: 80%; margin: auto; border: 1px; border-radius: 6px;}
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a class="btn btn-pag" href="index.html">Inicio</a>
+            <a class="btn btn-pag" href="contacto.html">Contacto</a>
+        </nav>
+        <h1>
+            Tienda Nova
+        </h1>
+        <p style="font-weight:bold;">
+            Artículos útiles para estudiar y trabajar.
+        </p>
+        <p>
+            Venta de utiles escolares para todos los niveles académicos.
+        </p>
+        <h2>
+            Nuestros Productos
+        </h2>
+        <table>
+            <tr style="background-color: aqua;">
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Mouse</td>
+                <td>RD$650</td>
+            </tr>
+            <tr>
+                <td>Teclado</td>
+                <td>RD$950</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <form id="formContacto" class="mi-formulario">
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" type="text" placeholder="Ej. Manuel" required>
+            <button class="btn-hi btn" type="button" onclick="saludar()">Saludar</button>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
