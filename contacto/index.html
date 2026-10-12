@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Contáctanos</title>
+    <style>
+            p {color: darkblue;}
+            #p2 {color:red;}
+            td, th {padding: 5px 15px; border: 1px solid; border-radius: 6px;}
+            table {width: 80%; margin: auto; border: 1px; border-radius: 6px;}
+    </style>
+</head>
+<body bgcolor="grey">
+    <nav align="center">
+            <a class="btn btn-pag" href="../">Inicio</a>
+            <a class="btn btn-pag" href=".">Contacto</a>
+        </nav>
+    <h1>
+        Contacto - Tienda Nova
+    </h1>
+    <br>
+    <p style="text-align: center; color: black;">
+        Tu opinión nos importa.
+    </p>
+    <form id="formContacto" class="mi-formulario">
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" type="text" placeholder="Ej. Manuel" required>
+        <br><br>
+        <label for="correo">Correo:</label>
+        <input id="correo" type="email" placeholder="Ej. ejemplo123@gmail.com">
+        <br><br>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" placeholder="Mi problema es..." style="resize: none"></textarea>
+        <br><br>
+        <button type="submit" class="btn" style="display: block; margin: 0 auto;">Enviar</button>
+    </form>
+    <p id="resultado"></p>
+</body>
+</html>
